@@ -5,7 +5,7 @@ tag="v$1"
 release="v$1"
 
 # ensure the user has updated readme
-echo "Create release $release: Did you update LATEST-MAC.YML and changelog.md? (Y/N)"
+echo "Create release $release: Did you update changelog.md? (Y/N)"
 read -q confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] ]] || exit 1
 echo
 
@@ -16,7 +16,7 @@ echo "#######################################################"
 git diff --quiet && git diff --staged --quiet \
     || (echo "Commiting/pushing repo" && git commit -am "Auto commit creating release $release" && git push) \
     || exit 1
- exit
+
 echo
 echo "#######################################################"
 echo Creating tag $tag
@@ -28,7 +28,7 @@ echo
 echo "#######################################################"
 echo Creating release $release
 echo "#######################################################"
-gh release create $tag --draft --prerelease --notes "[Changelog](changelog.md)" --title "$release" || exit 1
+gh release create $tag --draft --prerelease --notes "[Changelog](https://github.com/samarai-project/evolution-release/blob/main/changelog.md)" --title "$release" || exit 1
 # list releases, this seems to help with a problem that when we call "gh realease create" and 
 #immediately afterwards upload a file we get an error "release not found". Also, sleep 5 seconds
 # to give the whole thing a bit of time...
