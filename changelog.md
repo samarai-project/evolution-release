@@ -1,24 +1,38 @@
-## v0.44.0-alpha.6
-- test 1
-- test 2
-- test 3
-  
-## v0.44.0-alpha.5g
-- test 1
-- test 2
-- test 3
-  
-## v0.44.0-alpha.4
-- test 1
-- test 2
-- test 3
+## 0.44.0-alpha.17
 
-## v0.44.0-alpha.3
-- test 1
-- test 2
-- test 3
-
-## v0.44.0-alpha.4
-- test 1
-- test 2
-- test 3
+## 0.44.0-alpha.16
+- a list item that has sub-items cannot be unlisted, there's no way to break up that list
+- in sidebar, the selection popup is behind the sidebar
+- when the document title is focused -> enter -> lose focus
+- www-links on hover in dark-mode become unreadale
+- color of keystroke (code) tags in dark-mode is not readable
+- shortcut //todo should become //task
+- remove the grey shadow in header (light mode)
+- copying list-items (with no leading paragraph) doesn't create a list UL/OL in the html
+- restoring of note document crashes core
+- select with shift-click
+- select all with ctrl-a (first time select block, second time whole document)
+- allow deselect with arrow keys
+- multi-delete (keyboard alt-z and [del])
+- cut/paste blocks
+- native copy/paste
+- cut multi-block
+- cut single block on empty selection
+- bug: creating a divider with --- doesn't save it -> All other markup shortcuts fixed too
+- check-list doesn't update on click
+- copying html loses markers (colors, bold, etc)
+- object blocks are now copied as object blocks, including sub-objects
+- placeholder "press /..." only in first block, add more info. Make the title and the text that is shown random from e.g. 10 sets
+- bug: when there's only one block in root and user presses <Down>, the document loses focus
+- show keyboard-shortcuts in commands
+- commands for copy/cut/paste --> CANNOT as copy/cut only works properly if initiated by browser event
+- callouts/templates
+- text/bg colors now in themes
+- new comands for insert mention, link, emoji
+- command/keyboard shortcut to clear a block ctrl+D
+- command for paste as text and paste as blockquote
+- commands for undo/redo
+- commands to insert mentions, tags, links, emoji, etc.
+- text/background colors need be dependent on dark mode and light mode -> use css variables instead of hard coded values
+- callouts/messages: Specialized blocks that act as a callout/message with a pictogram, text and background color
+- commands for move/copy block(s) to new document
