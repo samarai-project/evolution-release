@@ -1,4 +1,35 @@
 ## 0.44.0-alpha.17
+- behavior of command popups normalized
+- sub-popups can now be closed using Escape/ArrowLeft
+- new controlled popup behavior: shows on second char after @#$:
+- show @-popup immediately as it is a limited list
+- when pressing / inside popup, list shows only commands with shortcut
+- when controlled popup open, shift-backspace deletes the filter
+- multi-selecting virtual blocks -> delete -> error
+- remote-edit -> all dividers are marked as remote edited
+- numbered list don't update when creating new list items, moving blocks or deleting blocks
+- grab handle of virtual block is in wrong place
+- fixed bug that would end up in inconsistent data when copying copies of blocks
+- do not allow to copy virtual blocks
+- when pasting blocks(s) into empty block replace that block
+- improved undo handling when clearing block
+- switch ctrl-d for delete (instead of ctrl-l), ctrl-e for empty
+- ctrl+y now works consistently as redo
+- undo/redo commands: show keyboard shortcuts
+- ctrl-a -> ctrl-c doesn't always work
+- context menu for selection (right clock on multi-item selection)
+- when moving stuff into new notes create a link to the note in the old note
+- fixed bug that would un-select multi-selection on drag handle click
+- select a bunch of blocks -> copy -> delete a block -> paste the copied blocks -> error
+- new algorithm that tries to keep document-clipboard clean
+- fixed dropbox paper html copy sample
+- object-search now shows last selected / opened objects
+- up/down arrows not working in sidebar ODM
+- in sidebar odm editor now shows drag handle and there's no right gutter anymore
+- improved undo handling when changing formatting of whole block
+- "Document" command group moved into "Edit" group
+- new "Duplicate" command, single and multi-block
+- new "Insert Note" command
 
 ## 0.44.0-alpha.16
 - a list item that has sub-items cannot be unlisted, there's no way to break up that list
