@@ -1,3 +1,35 @@
+## 0.44.0-alpha.18
+- $ and # now show popup immediately, also showing quick access list
+- fixed list of last opened/selected when selecting objects
+- hide cpm mark
+- switch off message "n blocks copied"
+- multi-selection on mac -> context menu -> closes immediately
+- improved command hidden behavior with multi-selection
+- new keyboard shortcuts cmd+backspase to empty block, cmd+shift+backspace to delete block, replaces cmd+e and cmd+d
+- new keyboard shortcut cmd+d to duplicate block
+- block spacing normalized
+- new block spacing setting in document settings
+- new continuos paragraph setting in document settings
+- rename group commands to "Insert" and "Link"
+- fixed bug that would prevent /-shortcuts to work in non-controlled popup
+- full internet links support added, with popup, edit, auto-recognition and insert command
+- samarai:// links are now supported
+- internal links can now be created using the "Copy Object" menu and then pasting the link
+- join up into an empty block -> cursor end up at the end
+- join up: undo is broken
+- support for images added. Features: Add from disk, paste image, resize, alignment, caption, cover
+- text alignment can now be adjusted using formatting commands
+- New command: Move to sub-document
+- Inline editing of document notes improved
+- new command: Insert sub-document
+- No more "cannot be undone"-confiramtion dialogs, toasts instead
+- New document shortcuts: Cmd+Home and Cmd+End to scroll/go to first/last block
+- bug: manual internet link doesn't work if at the beginning of block
+- paragraph non-spacing as standard
+- hashtag support added: plain-text hashtags, object-hashtags, popup, search, etc.
+- topics implemented and added to block documents
+- ctrl+shift+u/o for change into ordered/unordered list
+
 ## 0.44.0-alpha.17
 - behavior of command popups normalized
 - sub-popups can now be closed using Escape/ArrowLeft
