@@ -1,3 +1,15 @@
+## 0.46.0-alpha.1
+- first preview release of new space management UI
+- many small bugfixes and updates
+
+## 0.45.0-alpha.1++
+- major core/Alotau stability updates
+- new approach to user profiles (digitars) implemented
+- spaces can now be deleted
+- bugfix: core crashes when core transaction commit fails
+- bugfix: Alotau space is set into error mode after network errors with a negative error number
+- many small bugfixes and updates
+
 ## 0.44.0-alpha.18
 - $ and # now show popup immediately, also showing quick access list
 - fixed list of last opened/selected when selecting objects
