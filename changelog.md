@@ -1,3 +1,12 @@
+## 0.46.0-alpha.2
+- fixed bug that would cause core to crash when a transaction commit failed, the proper error message would now be shown instead of the crash
+- improved exception debugging in order to find out what's causing the transaction-commit-failed bugs
+- attempted fix for FxSynchronizeMentionsAndTags-bug: As it is not reproduceable, a fix was attempted. If the bug is not fixed in all situations yet, the error message should not be shown anymore, a toast would appear in experimental mode. Normal users can simply ignore it as it has no consequences
+- topic creation through magic-char % disabled in block editor (kept availability through menu)
+- block editor: fixed work-break at line ends (no more hyphenated word breaks)
+- block editor now allows to paste bullet-point structures from plain text
+- improved text and html paste handling
+
 ## 0.46.0-alpha.1
 - first preview release of new space management UI
 - many small bugfixes and updates
