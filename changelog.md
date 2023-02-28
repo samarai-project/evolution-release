@@ -1,3 +1,14 @@
+## 0.46.0-alpha.3
+- fixed unexpected behavior in block editor when user selects text with mouse and "overshoots" the editor while selecting
+- small fixes in block padding behavior
+- small fix aligns gutter buttons with text in lists
+- switched off behavior that would move whole lists when the item on top/bottom is moved towards outside of the list
+- fixed un-deletable list bug (weird lists that are deleted but come back after reload)
+- fixed bug where the order in a list structure would change when an item with sub-items is outdented
+- fixed misc bugs with object creator tool
+- pasting html into block editor from external sources now supports certain style-attributes like bold and italic
+- fixed block editor commit-fail error (a.k.a. crash-turned-error)
+- 
 ## 0.46.0-alpha.2
 - fixed bug that would cause core to crash when a transaction commit failed, the proper error message would now be shown instead of the crash
 - improved exception debugging in order to find out what's causing the transaction-commit-failed bugs
