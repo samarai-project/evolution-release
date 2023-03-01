@@ -1,3 +1,7 @@
+## 0.46.0-alpha.4
+- improved list import behavior in block editor, better Google docs support
+- misc improvements of copy/cut/paste in block editor
+- 
 ## 0.46.0-alpha.3
 - fixed unexpected behavior in block editor when user selects text with mouse and "overshoots" the editor while selecting
 - small fixes in block padding behavior
@@ -8,7 +12,7 @@
 - fixed misc bugs with object creator tool
 - pasting html into block editor from external sources now supports certain style-attributes like bold and italic
 - fixed block editor commit-fail error (a.k.a. crash-turned-error)
-- 
+  
 ## 0.46.0-alpha.2
 - fixed bug that would cause core to crash when a transaction commit failed, the proper error message would now be shown instead of the crash
 - improved exception debugging in order to find out what's causing the transaction-commit-failed bugs
