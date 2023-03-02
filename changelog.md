@@ -1,3 +1,10 @@
+## 0.46.0-alpha.5
+- fixed bug in block editor that would prevent remotely-edited blocks that are not in view to automatically update 
+- small fix in block editor spacing of last item in a list after editing
+- multi-item indenting support added to block editor
+- multi-item outdenting support added to block editor
+- misc block editor rendering updates
+- 
 ## 0.46.0-alpha.4
 - improved list import behavior in block editor, better Google docs support
 - misc improvements of copy/cut/paste in block editor
