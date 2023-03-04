@@ -1,3 +1,13 @@
+## 0.46.0-alpha.6
+- fixed automatic scrolling to top in block editor after multi-item indent/outdent
+- block editor: Automatic list joining on <Tab> disabled
+- sidebar menu moved to the right, tool-popups adapted for new design
+- improvements of object-tree handling in sidebar tools
+- items in object tree view now have a context menu
+- in graph explorer/manager, the limit on loaded items can now be overridden
+- new, unified click-behavior in graph manager, no more default expansion
+- no more scope changes on click in graph manager, scope needs to be changed through menu
+- 
 ## 0.46.0-alpha.5
 - fixed bug in block editor that would prevent remotely-edited blocks that are not in view to automatically update 
 - small fix in block editor spacing of last item in a list after editing
