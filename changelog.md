@@ -7,7 +7,8 @@
 - in graph explorer/manager, the limit on loaded items can now be overridden
 - new, unified click-behavior in graph manager, no more default expansion
 - no more scope changes on click in graph manager, scope needs to be changed through menu
-- 
+- workspace is now integrated in graph manager
+
 ## 0.46.0-alpha.5
 - fixed bug in block editor that would prevent remotely-edited blocks that are not in view to automatically update 
 - small fix in block editor spacing of last item in a list after editing
