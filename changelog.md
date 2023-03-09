@@ -1,3 +1,9 @@
+## 0.46.0-alpha.7
+- expert completely mode removed
+- misc updates to object document manager design
+- new paradigm where objects are opened in side-by-side view
+- new graph landing page (first prototype)
+- 
 ## 0.46.0-alpha.6
 - fixed automatic scrolling to top in block editor after multi-item indent/outdent
 - block editor: Automatic list joining on <Tab> disabled
