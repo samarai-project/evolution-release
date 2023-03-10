@@ -1,3 +1,8 @@
+## 0.46.0-alpha.8
+- fixed core crash when a graph was being auto-saved that has been destructed before auto-save processed
+- fixed bug in core that would stop connecting to Alotau (and disconnect) if there's a problem with any of the users spaces
+- misc updates to graph home, additional table views added
+- 
 ## 0.46.0-alpha.7
 - expert completely mode removed
 - misc updates to object document manager design
