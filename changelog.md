@@ -1,3 +1,11 @@
+## 0.46.0-alpha.9
+- proof-of-concept AI-functionality added to Chat
+- one-on-one spaces can now be auto-named using the name/avatar of the other user
+- spaces-chats introduced: Same as chats but all users witch change-rights of a space are automatically members
+- the object creator tool now switches the target space every time an object is opened or the active document manager is switched
+- objects can now be posted in chats as special posts, showing cards of the linked object
+- users can now chat with ChatGPT from any chat
+
 ## 0.46.0-alpha.8
 - fixed core crash when a graph was being auto-saved that has been destructed before auto-save processed
 - fixed bug in core that would stop connecting to Alotau (and disconnect) if there's a problem with any of the users spaces
