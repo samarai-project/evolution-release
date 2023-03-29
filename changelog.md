@@ -1,3 +1,18 @@
+## 0.47.0-alpha.1
+- misc UI-bugs in auto-form commandbar fixed
+- fixed bug that would show the [Cancel] button on new objects for 5 minutes
+- users now can leave joined spaces 
+- new space-invitation process implemented
+- on graph landing page, the settings-tab is only visible to space-admins
+- space landing page now shows space auto-names in dashboard
+- graph landing page now opens default in dashboard
+- new space click behavior in graph manager, new buttons, tooltips
+- navbar now shows auto-names for spaces in bread-crumbs
+- OpenAi requests are now routed through Alotau
+- Alotau password-recovery process implemented
+- digitars now synchronize automatically when an invitation to a space is accepted
+- fixed bug that would prevent notification for new chat-posts to be shown
+
 ## 0.46.0-alpha.9
 - proof-of-concept AI-functionality added to Chat
 - one-on-one spaces can now be auto-named using the name/avatar of the other user
@@ -10,13 +25,13 @@
 - fixed core crash when a graph was being auto-saved that has been destructed before auto-save processed
 - fixed bug in core that would stop connecting to Alotau (and disconnect) if there's a problem with any of the users spaces
 - misc updates to graph home, additional table views added
-- 
+
 ## 0.46.0-alpha.7
 - expert completely mode removed
 - misc updates to object document manager design
 - new paradigm where objects are opened in side-by-side view
 - new graph landing page (first prototype)
-- 
+
 ## 0.46.0-alpha.6
 - fixed automatic scrolling to top in block editor after multi-item indent/outdent
 - block editor: Automatic list joining on <Tab> disabled
@@ -34,11 +49,11 @@
 - multi-item indenting support added to block editor
 - multi-item outdenting support added to block editor
 - misc block editor rendering updates
-- 
+
 ## 0.46.0-alpha.4
 - improved list import behavior in block editor, better Google docs support
 - misc improvements of copy/cut/paste in block editor
-- 
+
 ## 0.46.0-alpha.3
 - fixed unexpected behavior in block editor when user selects text with mouse and "overshoots" the editor while selecting
 - small fixes in block padding behavior
