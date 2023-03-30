@@ -1,3 +1,9 @@
+## 0.47.0-alpha.2
+- Bugfix: in notifications, clicking on a button more than once could cause an error
+- Alotau password can now be changed from user-settings
+- Chats and Simple Notes are now experimental models, To-Do Task is now a stable model
+- model "Document Note" renamed to "Note"
+  
 ## 0.47.0-alpha.1
 - misc UI-bugs in auto-form commandbar fixed
 - fixed bug that would show the [Cancel] button on new objects for 5 minutes
