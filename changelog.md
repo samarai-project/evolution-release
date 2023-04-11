@@ -1,3 +1,56 @@
+## 0.47.0-alpha.3
+- space creation dialog added
+- new global shortcuts for search: commnad+shift+P or command+P or command+K or F1
+- ugly workaround added that redirects search to sidebar
+- new user onboarding: Personal space is auto-mounted and app asks to create digitar on first login
+- after login, a private data space is selected as session-create-graph
+- fixed bug that would prevent sidebar ODM to open from sidebar menu
+- spaces are not tracked anymore in recently-opened
+- spaces with a main-object configured do not anymore use the avatar of the main-object
+- spaces landing pages with a configured main-object now have a new tab that allows to edit the main object within the landing page
+- space avatars are now all square with slightly rounded corners
+- all nine-dot-menu-icons replaced with 3-dot
+- custom object-menu button in chats/discussions replaced with default button in navbar
+- notes: Object menu and settings joined into one popup
+- new command layout in document navbar (most commands are now on the right)
+- navbar: Cloud and application menu joined into one menu, showing user avatar when connected
+- navbar: Some items removed from app menu, some are now experimental mode
+- space manager: Space menu cleaned up, obsolete items removed, some items moved to experimental mode
+- space manager now only shows status-icons for spaces that are connected and online
+- space manager: default groups renamed
+- space manager: graphs cannot be expanded in-place anymore
+- objects badges are now shown in ODM navbar
+- close button moved to left in secondary and sidebar document manager
+- space manager: favorites/workspace is now also shown in card view
+- space manager: new button to collapse all groups
+- space manager now remembers last view settings (mode and collapsed groups)
+- sidebar tool reminders/today/tasks: Now only shows if there are any reminders/things to show
+- sidebar tool insights: available queries cleaned up for non-experimental users
+- the app now shows an inline-message instead of the create-digitar dialog
+- workspace renamed to favorites (old favorites are now "Tagged")
+- new quick-access button to add to / remove from favorites in document manager navbar
+- per-object discussion create/open is now standardized
+- bugfix: favorites in the space manager can now always be rearranged with drag and drop
+- kanban-board view for notes is now experimental
+- space manager: filter function now filters spaces and favorites
+- space manager collapsed view: space order and state indicators is now the same as in expanded view
+- space manager: new menu in toolbar to manage favorites
+- space manager: tool title is now the alotau username
+- space manager: double click on space goes directly to chat
+- default note type changed to "Document", note description is only shown if note type is changed
+- new object header design
+- hastags can now be added in object header
+- notifications can now be muted (no sound)
+- new do-not-disturb-mode: Notification sounds are muted and counters only visible on hover
+- notifications are now shown in space manager, showing total posts/notification counts
+- space landing page has now a section showing notifications
+- sidebar document can now be "pinned" (opened in side-by-side mode)
+- complete re-design of discussions/chat
+- discussions now have a read-state marker
+- discussions now show date-markers
+- discussions now show new post markers
+- new interactions between notes and chats
+  
 ## 0.47.0-alpha.2
 - Bugfix: in notifications, clicking on a button more than once could cause an error
 - Alotau password can now be changed from user-settings
