@@ -1,3 +1,45 @@
+## 0.47.0-beta.1
+- attempted fix for a bug that would set (and keep) spaces offline if an error happens during connect to Alotau
+- fixed bug that would set spaces offline if the space was shaken off when connecting. The space is now pulled instead
+- improvements on how the core handles when on startup a space fails to mount
+- Discussions: Post-menu reorganized
+- Discussions: New [Copy] command copies text and html to clipboard
+- fixed bug that would clip the command-popup when opened in sidebar ODM
+- the discussion page in auto-form is now hidden by default
+- misc usability updates to message composer
+- space landing page now does not show "Set Online" button if the space is not mounted
+- fixed a bug that prevented images in notes to be saved and synchronized
+- embedded images are now supported in discussions, size is limited automatically
+- on windows the Electron app is now showing a red dot in the tray icon when notifications are available
+- discussions now support attachments of up to 10MB
+- many small updates to chats
+- chats now support threads, conscious and automatic
+- chats: new commands "Reply Previous", "Follow-Up Thread", "Show Thread"
+- chats now support multi-message selection
+- chats: copy-command now supports multi-message copy
+- chats: conversion of messages to text improved, lists are now properly converted (important for communication with ChatGpt)
+- fixed bug that would prevent shift+enter to create new list items in chat message composer
+- ChatGPT now gets user names of posts as context
+- notes now allow to discuss multiple blocks with ChatGpt
+- chats: Discuss-command is now experimental
+- chats: new "Catch Me Up From Here" command that creates a info-view (not a post)
+- chats: messages now have a initial max-size and a "Show more..." button
+- chats: replies now have a initial max-size and a "Show more..." button, after expansion restricted to 30% of viewport with scrollbar
+- chats: process-commands now support selection
+- chats: new settings section in object menu
+- chats: new forced-thread-mode
+- chats: open-command removed, replaced by developer commands
+- chats: composer has new formatting commands for ordered and unordered lists
+- chats: added support to jump to replied-to/forwarded posts, up to 1000 posts back
+- chats: when opening a post from outside the chat the chat now jumps to the post and highlights it
+- notes: New process-commands "Create Title", "Summarize", "To Bullet Points", "Paraphrase"
+- notes: updated integration with chat
+- notes: slight reorganization of commands, new development commands
+- notes: new point-out-command, opens the document at the pointed out block
+- notes: new forward-command, allow to forward a reference to a block through chat
+- notes/chats: www-links do not show the prefix-icon anymore, fixed usage in chats
+- notes/chats: pasting is now restricted to 100k of text-data to prevent the app from freezing
+
 ## 0.47.0-alpha.3
 - space creation dialog added
 - new global shortcuts for search: commnad+shift+P or command+P or command+K or F1
