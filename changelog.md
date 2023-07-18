@@ -1,3 +1,38 @@
+## 0.48.0-alpha.0
+- Chats: Updated thread presentation and handling
+- Complete overhaul of the client AI stack
+- AI stack now supports client and platform access to OpenAI, custom API keys on client only
+- AI stack now supports streaming chat completion (using client access only)
+- Selected models now allow to discuss objects directly with AI, new button in object toolbar
+- When discussing a note with the AI, the AI is now aware of the whole document
+- Notes: New AI-command: Select Document Emoji
+- Notes: New AI-command: Create Tasks
+- Notes: New AI-command: Create People
+- Notes: New AI-command: Visualize Social Network
+- Notes: New AI-command: Create Document Thumbnail
+- Notes: New AI-command: Create Image
+- Notes: New AI-command: Instruct
+- Notes: New AI-command: Change Tone
+- Notes: New AI-command: Translate
+- Notes: New AI-command: Spellcheck
+- Notes: New AI-command: Start Writing
+- Notes: New AI-command: Continue Writing
+- Notes: New AI-command: Fact-Check
+- Notes: Improved behavior for "Create Heading Above" command
+- Chat: AI now creates new posts immediately and shows progress directly in the post
+- Chat: The composer now has a bunch of AI-based commands: Generate, Instruct, Change Tone, Translate, Spellcheck
+- Chat: New AI-base auto-reply commands
+- Chat: New behavior for Summarize and Bullet Points commands, they now output into composer-messages
+- Chat: Composer-messages (catchup, bullet points, summarize) can now be copied to clipboard or converted to a new note
+- Chat: New command: Create Note From Posts
+- Chat: New command: Fact-Check (composer and posts)
+- Chat: New posts-command: Translate To English;
+- Chat: The Generate-command is now content-aware
+- Chat: Composer has a new AI-Reply button
+- Chat: When pressing Space in empty composer it shows an AI-generate menu
+- Custom AI key can now be configured in user settings
+- Windows release isn't signed (certificate expired)
+  
 ## 0.47.0-beta.1
 - attempted fix for a bug that would set (and keep) spaces offline if an error happens during connect to Alotau
 - fixed bug that would set spaces offline if the space was shaken off when connecting. The space is now pulled instead
