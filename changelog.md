@@ -1,3 +1,21 @@
+## 0.48.0-alpha.1
+- chat bots now can be experimental/dev-feature. Existing bots have been adapted
+- new chat-bot: Samarai (dev-feature)
+- ChatGPT output formatting improved, support for code syntax highlighting, tables
+- new chat-bot: Hacker
+- in notes, the generate-function can now insert code blocks
+- fixed bug in note editor that would cut text after a '< character
+- chats: in message composer, when talking to AI and press <Arrow Up> in empty composer, last sent message is inserted
+- The chat message composer now allows to send messages to more than one bot at a time
+- Selected model instances (Project, Notes) can now be directly chatted with (they act as chat bots)
+- new Custom Chatbots feature
+- new Creator bot that can create custom chatbots
+- in chats, new global button to stop AI generation. 
+- in chats, when AI is generartiong <Espace> stops it
+- new chatbot as a function: Thesaurus
+- new chatbot as a function: Define
+- new chatbot as a function: Unit Converter
+- 
 ## 0.48.0-alpha.0
 - Chats: Updated thread presentation and handling
 - Complete overhaul of the client AI stack
