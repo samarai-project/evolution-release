@@ -1,3 +1,22 @@
+## 0.48.0-alpha.2
+- Chats: improved handling of internal links in interactions with AI
+- Chats: improved handling/visualization of AI-posts with rich-text content
+- AI-Processing: improved visualization of rich-text-content
+- Improved compatibility when exchanging content between chat and notes
+- Fixed bug that would not output whole notes to bots as context
+- Reminders model updated
+- Reminders tool in sidebar replaced by notifications
+- Chats do no send notifications to user if new posts are for/from chatbots
+- The "Today" tool in the sidebar now shows all reminders and tasks due today for the user
+- New Chatbot "Samarai". Can create projects, tasks, reminders. Can open and delete objects
+- New chatbot "Support", placeholder for now
+- Fixed bug that would prevent notes last-mod-date to be updated when editing the note
+- All TinyMCE usage has been converted to Elate (Simple notes still work, now with Elate)
+- Appointment model has been elevated to non-experimental
+- In notes, applying format through one of the menus now toggles the format (before it was just set)
+- Samarai chatbot can now create appointments
+- Digitars are now synchronized to local settings (to avoid douplicate-objects bug)
+- 
 ## 0.48.0-alpha.1
 - chat bots now can be experimental/dev-feature. Existing bots have been adapted
 - new chat-bot: Samarai (dev-feature)
