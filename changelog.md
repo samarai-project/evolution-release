@@ -6,7 +6,7 @@
 - Fixed bug that would not output whole notes to bots as context
 - Reminders model updated
 - Reminders tool in sidebar replaced by notifications
-- Chats do no send notifications to user if new posts are for/from chatbots
+- Chats do now send notifications to user if new posts are for/from chatbots
 - The "Today" tool in the sidebar now shows all reminders and tasks due today for the user
 - New Chatbot "Samarai". Can create projects, tasks, reminders. Can open and delete objects
 - New chatbot "Support", placeholder for now
