@@ -1,3 +1,20 @@
+## 0.48.0-alpha.3
+- Bugfix: After changing spaces, default create space is local user settings
+- Bugfix: In dark mode, when a object relator is empty it's barely visible
+- Work-Boards now work with to-do tasks
+- Reminders now open in a dialog (experiment)
+- Reminders now can be snoozed
+- Samarai bot can now create notes
+- Samarai bot can now send chat messages
+- Calendar view implemented, replaces Today sidebar-tool
+- Bunch of new event-models (Meetings, Sports, etc.)
+- Chats: New thread now can be created by sending with Shift+Enter
+- Application menu is now commands
+- Quick Access Panel introduced: Search, commands (app + create), chat
+- Projects are now kanban boards (with tasks in state-columns)
+- Tasks are now kanban boards (with sub-tasks in state-columns)
+- All object menus changed to commands
+- 
 ## 0.48.0-alpha.2
 - Chats: improved handling of internal links in interactions with AI
 - Chats: improved handling/visualization of AI-posts with rich-text content
