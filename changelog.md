@@ -1,3 +1,31 @@
+## 0.48.0-alpha.4
+- bugfix: AI now should understand current date/time independently of OS/Chromium settings
+- bugfix: when opening objects from QAP it now opens as main content (or uses modifiers) and closes QAP
+- In chat a new thread is now created when pressing Shift+Alt+Enter
+- QAP renamed in UI to Magic Bar
+- QAP global shortcuts changed: ctrl+k || F1
+- QAP is now multi-processor capable
+- QAP has been completely redesigned (new back-button, popup-statusbar, different behaviors)
+- QAP now clears when text is empty and user presses backspace
+- QAP search mode can now search for commands-only (prefix >, Ctrl+Shift+P)
+- QAP chat mode now switches into chats immediately
+- QAP chat mode now uses a separate chat for each AI-bot
+- QAP chat mode now allows to open chats as main content, create new threads, stop AI generation
+- QAP new global shortcut to open directly search mode: ctrl+shift+f
+- QAP now allows to switch modes from app-comands
+- QAP now plays nice with tab-key
+- QAP now has a calendar mode with direct access to @Samarai: Ctrl+Shift+A
+- QAP now has a tasks mode with direct access to @Samarai: Ctrl+Shift+T
+- QAP can now switch directly to chat with default bot: Ctrl+Shift+C
+- QAP can now switch directly to chat with Samarai-bot: Ctrl+Shift+S
+- Old search tool removed from sidebar
+- QAP now shows mode and details when deactivated
+- New sidebar tool: Last Interacted
+- Elate: Handling of emoticons improved 
+- Search in chats fixed
+- Kanban board for projects and tasks now shows users / workboard assignments
+- In chat and QAP, AI now gets context information about linked/hashtagged objects
+
 ## 0.48.0-alpha.3
 - Bugfix: After changing spaces, default create space is local user settings
 - Bugfix: In dark mode, when a object relator is empty it's barely visible
@@ -14,7 +42,7 @@
 - Projects are now kanban boards (with tasks in state-columns)
 - Tasks are now kanban boards (with sub-tasks in state-columns)
 - All object menus changed to commands
-- 
+
 ## 0.48.0-alpha.2
 - Chats: improved handling of internal links in interactions with AI
 - Chats: improved handling/visualization of AI-posts with rich-text content
