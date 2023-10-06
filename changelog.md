@@ -1,3 +1,52 @@
+## 0.48.0-beta.1
+- New user setting "AI Prefer Speed Over Complexity" which currently forces ChatGPT 3.5
+- Chatbots can now be linked when chatting to an AI (fixes moderator talking to other AIs)
+- Calendar now has a button to show/hide inactivated events
+- Bugfix: Space manager would always open collapsed
+- Bugfix: Autoform header would not accepts amperstands
+- Havel: Handles and Hashtags are now case-insensitive 
+- Alotau usernames and emails are not case sensitive anymore
+- Space manager: Invitations now appear on top of tree
+- Bugfix: Space manager now shows open invitations
+- Usernames (identity-uid) are now accepted when inviting users to spaces
+- Space manager: Tree-view renamed to short-view, short-view is now default, card-view is experimental
+- New app-command: Setup User Profile
+- Graph-home now only shows objects that are not hidden
+- Electron app renamed to "Samarai Evolution"
+- Electron main window can now be zoomed (ctrl-wheel on Windows)
+- Alotau platform now supports public spaces (without search, need know handle or sid)
+- Alotau registration: Phone number removed
+- Alotau registration: Screen name added
+- Alotau registration: Password is now automatically used on first login and saved
+- Alotau registration: System now automatically creates a digitar (Person) using screen name
+- Alotau registration: The user-digitar gets an AI-generated avatar (funny animal clip art)
+- Alotau registration: All initial spaces are auto-mounted
+- Alotau registration: Samarai Support space is now automatically subscribed and mounted
+- Alotau registration: We can now create default objects in user private data from templates in support space
+- Alotau registration: User is automatically logged in after registration
+- User can now create an AI-generated avatar from profile setup
+- Space home: Chats are now automatically created when user tries to access chat first time
+- App now opens last opened object on app start
+- Objects opened in sidebar/dialog are no longer tracked 
+- Spaces can now be added to favorites
+- Spaces can now be linked in lists and notes
+- New user home (similar to space home)
+- Calendar now only allows to create Appointment, Reminder and Task (in non-experimental mode)
+- Project is now a non-experimental model
+- Discussion cannot be created through creator anymore, only from an object
+- Right sidebar can now be closed/open and is hidden by default for new users
+- Home and calendar buttons are now in Navbar
+- The function that looks for one-on-one chats can now handle closed spaces and create new ones
+- QAP: Clicking on magic-button now opens the context menu
+- QAP: Chats with bots are now permanent
+- QAP now can find spaces and digitars (spaces by name, not auto-name)
+- QAP: Calendar can now be opened to full view from calendar mode
+- QAP: Chat shows empty screen with a message if chatting with bot and no thread started yet
+- Kanban boards Project and Task: Items can now be ordered and deleted on board
+- Tasks are now AI-chatbots
+- View switcher commands are now always visible, no more slide-out-menu
+- Graph home: New design to create things in space
+
 ## 0.48.0-alpha.4
 - bugfix: AI now should understand current date/time independently of OS/Chromium settings
 - bugfix: when opening objects from QAP it now opens as main content (or uses modifiers) and closes QAP
