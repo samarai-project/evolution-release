@@ -1,3 +1,16 @@
+## 0.48.0-beta.2
+- Bugfix: QAP and chat would show chatbots duplicated in selection list
+- Bugfix: QAP and chat would show experimental bots in selection list
+- In space settings [Space Name] now shows the configured space name not the auto-name
+- User calendar can now be added to favorites
+- User registration: Ai-avatars are now created asynchronously in the background after first start
+- When switching between dark/light mode the app now loads the last object
+- The app now also tracks space-home in open-history
+- Connecting to Alotau can now be canceled from client (App Menu)
+- Login into cloud does not block the client anymore
+- Network issues during connect to Alotau are now less reported to the user
+- Local graph manager added to application menu (experimental mode only)
+
 ## 0.48.0-beta.1
 - New user setting "AI Prefer Speed Over Complexity" which currently forces ChatGPT 3.5
 - Chatbots can now be linked when chatting to an AI (fixes moderator talking to other AIs)

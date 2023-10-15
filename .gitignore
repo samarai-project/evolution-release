@@ -1,0 +1,10 @@
+/lib
+/node_modules
+/dist
+/build
+debug.log
+*.pfx
+*.p12
+*.log
+.history/
+.VSCodeCounter/
