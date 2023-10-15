@@ -41,14 +41,14 @@ echo "#######################################################"
 echo Uploading files to $tag
 echo "#######################################################"
 for file in \
-    "../evo-electron/dist/Evolution-macOS-$version-arm64.zip" \
-    "../evo-electron/dist/Evolution-macOS-$version-arm64.zip.blockmap" \
-    "../evo-electron/dist/Evolution-macOS-$version-arm64.dmg" \
-    "../evo-electron/dist/Evolution-macOS-$version-arm64.dmg.blockmap" \
-    "../evo-electron/dist/Evolution-macOS-$version-x64.zip" \
-    "../evo-electron/dist/Evolution-macOS-$version-x64.zip.blockmap" \
-    "../evo-electron/dist/Evolution-macOS-$version-x64.dmg" \
-    "../evo-electron/dist/Evolution-macOS-$version-x64.dmg.blockmap" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-arm64.zip" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-arm64.zip.blockmap" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-arm64.dmg" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-arm64.dmg.blockmap" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-x64.zip" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-x64.zip.blockmap" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-x64.dmg" \
+    "../evo-electron/dist/Samarai-Evolution-macOS-$version-x64.dmg.blockmap" \
     "../evo-electron/dist/latest-mac.yml"
 do
     echo "$file"
