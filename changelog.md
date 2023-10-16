@@ -1,3 +1,5 @@
+## 0.48.0-beta.3
+
 ## 0.48.0-beta.2
 - Bugfix: QAP and chat would show chatbots duplicated in selection list
 - Bugfix: QAP and chat would show experimental bots in selection list
