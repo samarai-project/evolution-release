@@ -1,4 +1,6 @@
 ## 0.48.0-beta.3
+- Fixed bug that could cause the core to freeze when the auth-token to Alotau would expire while the user is working on notes
+- Fixed bug which caused new reminders to not be shown on calendar
 
 ## 0.48.0-beta.2
 - Bugfix: QAP and chat would show chatbots duplicated in selection list
