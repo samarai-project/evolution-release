@@ -1,3 +1,15 @@
+## 0.49.0-alpha.0
+- Extensive reorganization of project structure
+- HSL introduced
+- Plugin system introduced in client
+- Notifications and badges in app are more responsive and should be more reliable
+- Chat: New AI messages are shown expanded
+- Chat: Double-clicking a post now does nothing without a modifier key, this allows text selection. Holding Ctrl/Cmd replies to the post, shift edits the post (if enabled)
+- Elate: Space and punctuation now cancels hashtag selection
+- Bugfix: When last object opened before logout was a space, the space would not open after login
+- Bugfix: Notification updates would not always show on badges in graph-manager
+- Many small updates and fixes
+
 ## 0.48.0-beta.3
 - Fixed bug that could cause the core to freeze when the auth-token to Alotau would expire while the user is working on notes
 - Fixed bug which caused new reminders to not be shown on calendar
