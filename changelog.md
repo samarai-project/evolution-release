@@ -1,3 +1,7 @@
+## 0.49.0-alpha.1
+- Bugfix: Long notes would slow down UI
+- Bugfix: Object path in document navigation would sometimes render twice
+
 ## 0.49.0-alpha.0
 - Extensive reorganization of project structure
 - HSL introduced
