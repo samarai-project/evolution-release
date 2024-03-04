@@ -1,3 +1,16 @@
+## 0.49.0-alpha.3
+- Flexform introduced, replacing Autoform
+- Autoform is now deprecated, only available in dev-mode
+- upgrades to object assistant functionality
+
+## 0.49.0-alpha.2
+- bugfix: Autoform/notes alignment/width problem
+- bugfix: Clicking [Open] in space-chat-notifications does not open chat
+- bugfix: when clicking on [+] button of space for first time the space is not selected in creator
+- bugfixing: creating notes from chats in settings graph creates the note in same graph
+- Block document has now own view w/o page navigation
+- Keyboard navigation between note-content and note-title improved
+
 ## 0.49.0-alpha.1
 - Bugfix: Long notes would slow down UI
 - Bugfix: Object path in document navigation would sometimes render twice
