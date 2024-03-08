@@ -1,3 +1,10 @@
+## 0.49.0-alpha.4
+- misc updates and fixes to object assistant private and public chats
+- object assistant is now integrated with block document editor
+- scrolling behavior on new post in chats improved
+- notifications for public object discussions now open the object/assistant
+- custom chatbots can now be used as object assistants
+
 ## 0.49.0-alpha.3
 - Flexform introduced, replacing Autoform
 - Autoform is now deprecated, only available in dev-mode
