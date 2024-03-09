@@ -4,6 +4,11 @@
 - scrolling behavior on new post in chats improved
 - notifications for public object discussions now open the object/assistant
 - custom chatbots can now be used as object assistants
+- affected features now bubble down all the way to the body
+- graph manager: Notification badges should be more reliable
+- graph manager: Better UI response times when opening/closing spaces, UI updates more reliable
+- Notes: Context-click on the block-handle now opens the same menu as mouse-click
+- Chat: Misc UI glitches fixed
 
 ## 0.49.0-alpha.3
 - Flexform introduced, replacing Autoform
