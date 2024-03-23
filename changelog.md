@@ -1,3 +1,36 @@
+## 0.49.0-beta.0
+- Bugfix in graph manager that would prevent the space list updating after space was opened
+- Fixed bug that would show show an error when closing a space while the space-chat was open
+- Updates to conflict handling of html-values
+- Document now refreshes buttons after changes to object (favorite button is responsive)
+- Document now refreshes badges after changes (write protection badge)
+- Sidebar list now properly refresh on list changes after being hidden
+- Sidebar/favorites: Improved handling of missing/disappearing objects
+- Fixed error when object is restored from trash
+- Improved document handling when an object is deleted
+- Improved error dialog output
+- Fixed bug that would prevent notification badges to be updated in graph manager
+- Space-home now better handles closed spaces when not connected to Alotau
+- Object lists are now experimental
+- AI is now using latest ChatGpt 4.0 model with 128k context window and improved function calling
+- AI processing error messages should now be more user friendly
+- QAP search now follows user scope
+- Chat: Fixed bug that would recognize a pasted text as an URL if there was a URL in the text
+- Object Chat: New threads can now be created by sending a message with Shift+Alt+Enter
+- AI runtime chats are now opened in the object-chat mode
+- Notes: Fixed bug that would jump cursor to title when moving up using ArrowUp in first block when not in first line
+- Notes: Plain text output of clipboard copy improved
+- Notes: Softbreaks behavior fixed
+- Notes: Document now reloads when readonly-state changes
+- Calendar: Fixed bug that would show people with empty birthdays on 1st of january on calendar
+- New Alotau connection process implemented which now has a timeout and can be aborted
+- Improvements to Alotau disconnect process so it does not dead-lock anymore when logging out while Alotau connect is in progress
+- General overhaul of Alotau network stack, should be better more stable and recover from network problems
+- App now always shows user avatar and has a color-indicator when not connected
+- "Error catching up space X" is not shown anymore if in auto-connect mode
+- Electron App: Fixed bug that would show an empty password dialog after first login
+- Fixed weird behavior between QAP-chat and full-chat are open at the same time
+
 ## 0.49.0-alpha.4
 - misc updates and fixes to object assistant private and public chats
 - object assistant is now integrated with block document editor
