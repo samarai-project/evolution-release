@@ -41,7 +41,7 @@ echo "#######################################################"
 echo Uploading files to $tag
 echo "#######################################################"
 for file in \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.zip" \
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.zip" \
     "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.zip.blockmap" \
     "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.dmg" \
     "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.dmg.blockmap" \
