@@ -1,3 +1,11 @@
+## 0.49.0-beta.1
+- further work on network stack stability, shutdown behavior
+- fixed bug on Mac that would prevent REST server from starting if a samarai ghost-process lingers
+- fixed "annoying digitar bug"
+- fixed bug that would loses text after a soft-break in notes
+- local chats (object assistant chats, AI chats) now use the Alotau identity
+- chats: new algorithm that updates user read states, creating less Alotau traffic
+
 ## 0.49.0-beta.0
 - Bugfix in graph manager that would prevent the space list updating after space was opened
 - Fixed bug that would show show an error when closing a space while the space-chat was open
