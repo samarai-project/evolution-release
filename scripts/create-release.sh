@@ -42,14 +42,14 @@ echo Uploading files to $tag
 echo "#######################################################"
 for file in \
     "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.zip" \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.zip.blockmap" \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.dmg" \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.dmg.blockmap" \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.zip" \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.zip.blockmap" \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.dmg" \
-    "../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.dmg.blockmap" \
-    "../evolution/hosts/electron2/dist/latest-mac.yml"
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.zip.blockmap" \
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.dmg" \
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-arm64.dmg.blockmap" \
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.zip" \
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.zip.blockmap" \
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.dmg" \
+    "../../evolution/hosts/electron2/dist/Samarai-Evolution-macOS-$version-x64.dmg.blockmap" \
+    "../../evolution/hosts/electron2/dist/latest-mac.yml"
 do
     echo "$file"
     gh release upload "$tag" "$file" --clobber || exit 1
