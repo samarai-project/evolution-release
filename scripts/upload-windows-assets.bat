@@ -6,4 +6,4 @@ set release=v%1
 
 echo Uploading Windows release assets to tag/release %tag%
 
-gh release upload %tag% "..\evo-electron\dist\Samarai-Evolution-win-%version%-x64.exe" "..\evo-electron\dist\Samarai-Evolution-win-%version%-x64.exe.blockmap" "..\evo-electron\dist\latest.yml" --clobber || exit 1
+gh release upload %tag% "..\..\evolution\hosts\electron2\dist\Samarai-Evolution-win-%version%-x64.exe" "..\..\evolution\hosts\electron2\dist\Samarai-Evolution-win-%version%-x64.exe.blockmap" "..\..\evolution\hosts\electron2\dist\latest.yml" --clobber || exit 1
