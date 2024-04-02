@@ -1,3 +1,11 @@
+## 0.49.0-beta.2
+- fixed full screen logout behavior on Mac
+- auto-update dialog: <Install Now> is now the default button
+- samarai DASM fixed
+- fonts in Windows build fixed
+- chat: "New Posts" marker behavior tweaked
+- the core is now "scattering" chats accross multiple SRDM sources, avoiding large files on Alotau
+ 
 ## 0.49.0-beta.1
 - further work on network stack stability, shutdown behavior
 - fixed bug on Mac that would prevent REST server from starting if a samarai ghost-process lingers
