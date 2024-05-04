@@ -1,3 +1,41 @@
+## 0.50.0-alpha.0
+- new object document manager implemented
+- Samarai now can send notification emails if things happen in spaces
+- assigning users to tasks/projects can now trigger assignment notifications
+- Alotau now sends an email to admin when new users are created
+- chat: design overhaul
+- chat: selection and copy mechanism updated
+- chat: files can now be dropped from the OS into the chat, up to 10 files supported
+- chat: messages now support more than one attachment (enabled only for file drops)
+- chat: image support overhauled
+- chat: pasting an image now also creates an attachment post
+- chat: Ai now supports image attachments
+- chat/Elate: we now use native emojis on Mac
+- chat: fixed interaction with notes
+- chat: message forwarding fixed
+- ai-chat: in-text linked/tagged objects are now sent as context
+- chatbots are now accessible from the user home page
+- chatbots are now accessible from the graph manager
+- flexform: attached pictures now open in lightbox
+- terminal is now a normal document
+- new behavior space-chats, new space design in graph manager
+- topics (magic char %) disabled in block documents and chats
+- new generic kanban board model
+- kanban board is now a chatbot: create, move, change
+- kanban sidebar tool now only works with the new kanban board model
+- in favorites and other tree-lists clicking on a sub-list now opens the list as content (was expand)
+- new object header design, objects now can have cover images
+- fixed bug that would close sidebar when user starts selecting text and overshoots
+- fixed bug that would close sidebar when the elate menu is opened
+- misc bugs fixed concerning new users and first startup
+- fixed table-paste error in elate standalone editor
+- simple notes are now obsolete. Still viewable but read-only, new ones cannot be created anymore
+- Alotau spaces are now set back to private visibility once the last user leaves
+- misc improvements and hardening of Alotau space handling
+- fixed a specific Alotau disconnected error message that would require user to manually reconnect
+- fixed bug that would show errors when entering %-characters in certain situations
+- client-side logout process optimized
+
 ## 0.49.0-beta.2
 - fixed full screen logout behavior on Mac
 - auto-update dialog: <Install Now> is now the default button
