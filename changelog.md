@@ -1,3 +1,31 @@
+## 0.50.0-alpha.1
+- notes: keyboard inputs are now processed sequential with core and ui transactions
+- notes: copy/pasting multiple blocks is now best-effort approach
+- notes: selection menu has new commands "Discuss with AI" and "Change Into"
+- notes: indented blocks now outdent when cursor is at start and user presses backspace
+- notes bugfix: in dark mode, h3 has wrong text color (also fixed code/kbd marks)
+- notes bugfix: dropping own document into note inserted technical text
+- notes bugfix: when joining two blocks undo should now work (but still might need 2 steps)
+- notes bugfix: keyboard navigation between title and content fixed
+- elate: on / we now show a hint "Type to filter..."
+- elate: typing "///" closes the commands popup and leaves "/"
+- elate: typing "$$" closes the commands popup and leaves "$", same for # and @ 
+- tab interface: cmd/ctrl-clicking an object now opens a new background tab
+- tab interfaces: now there's a [+] button to the right of each group. open new tab in user home
+- tab interface: tabs can now be re-ordered within a tab-group using DND
+- object assistant button is now opaque and shows a tooltip
+- notes: when read-only pointer is now default
+- readonly object now have a prominent (Read-Only) and (Write-Protected) marker
+- kanban board: new customized cards (cards, todo-tasks only)
+- kanban board: columns now remember last created type
+- bugfix: fixed display issues with samarai-links
+- bugfix: "nervous" UI behavior when hovering over thread-buttons of posts
+- bugfix: pressing [+] on kanban column and then canceling would add a Cancel-card on the board
+- bugfix: chat email notifications now show the correct chat name
+- bugfix: when opening a public chat in a document it adds buttons to the navbar
+- bugfix: missing characters at end of chat message when sending too fast with <Enter>
+- bugfix: starting file drop shows target, on cancel the target is still visible
+    
 ## 0.50.0-alpha.0
 - new object document manager implemented
 - Samarai now can send notification emails if things happen in spaces
