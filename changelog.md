@@ -1,3 +1,36 @@
+## 0.50.0-beta.1
+- Chats now support Tenor gifs
+- Tabs bar is shown always, even if there is only 1 tab open
+- Tooltips are normalized and now appear faster (unless in dev-mode)
+- Added cmd+t keyboard shortcut to open a new tab
+- Added shift+cmd+t keyboard shortcut to re-open previously closed tabs
+- Object info (type + graph) now hidden for cards and tasks in Kanban view
+- Tabs now show tooltip when document name is too long
+- Drag and Drop implementation completely re-written
+- New list views added
+- "List" renamed to "Collection" and "Folder", icons updated
+- Collection/List is now a stable model
+- Graph-view enabled for lists and queries, visualization updated
+- Autoform/Autolist views removed 
+- Misc object badges re-configured or disabled
+- Multi-item selection and menu processing implemented in lists
+- New drag-and-drop framework implemented, with system-wide normalization
+- Kanban column titles are now editable inline
+
+- Bugfix: Fixed CommandBar (in BDE) rendering below QAP when opened too far up
+- Bugfix: Fixed ObjectChat button tooltip not rendering inside the window
+- Bugfix: Fixed bullet points not showing in text editor
+- Bugfix: Fixed BDE blocking “jumping through tabs” with keyboard shortcuts when the cursor is at the end of the note
+- Bugfix: Fixed tooltip not showing in assignee in Task Cards
+- Bugfix: Fixed “Tasks” title being truncated in the sidebar
+- Bugfix: Don't allow sidebar images to be dragged
+- Bugfix: Don't show title field for Tasks
+- Bugfix: Core crashes on exit and in local mode caused by prng
+
+Known Bugs:
+
+- AI functionality does not work without custom API key
+
 ## 0.50.0-alpha.1
 - notes: keyboard inputs are now processed sequential with core and ui transactions
 - notes: copy/pasting multiple blocks is now best-effort approach

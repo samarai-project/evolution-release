@@ -8,3 +8,4 @@ debug.log
 *.log
 .history/
 .VSCodeCounter/
+.history/
