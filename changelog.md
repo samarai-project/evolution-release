@@ -4,15 +4,18 @@ Application:
 - In all grids, align grids items with the titles
 - Fix: show .mov videos in chat
 - If you click to open something in a new tab, by default puts it into the tab next to the currently open tab, instead of as last tab on the right (e.g. you have 5 tabs open, and click from within the 1st tab to open a link » open as 2nd tab, not as 6th tab)
+
 Search bar:
 - @jiri opens chat with Jiri
 - New commands: open calendar & open user home
+
 Dashboard & tables:
 - Remove divider lines between rows
 - Removed left-side padding to left-align rows content with first column header, and header with all other content
 - Secondary CTA buttons line fixed
 - Multiple clicking of shift-click selects everything from 1st click to last (like Finder)
 - If you have multiple things selected, then Cmd-click on a selected row unselects them
+
 Calendar:
 - Fix: Saturday or saturday in existing week isn't grey when it is today
 - Fix: If today is November 4th, then every 4th of the month was also show highlighted as if it's today…! (so Dec 4th, Jan 4th, etc)
