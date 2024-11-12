@@ -30,7 +30,7 @@ echo Creating release $release
 echo "#######################################################"
 gh release create $tag --draft --prerelease --notes "[Changelog](https://github.com/samarai-project/evolution-release/blob/main/changelog.md)" --title "$release" || exit 1
 # list releases, this seems to help with a problem that when we call "gh realease create" and 
-#immediately afterwards upload a file we get an error "release not found". Also, sleep 5 seconds
+# immediately afterwards upload a file we get an error "release not found". Also, sleep 5 seconds
 # to give the whole thing a bit of time...
 echo Wait a few seconds...
 sleep 5
