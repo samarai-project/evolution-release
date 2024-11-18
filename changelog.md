@@ -1,3 +1,7 @@
+## 0.50.0-alpha.6
+- Flexform now uses Table and ObjectGrid to show item lists
+- Bugfix: "Tom's option-key bug" on Mac resolved
+
 ## 0.50.0-alpha.5
 Application:
 - Bug: globally, Option+Cmd+Left/RightArrow doesn't work anymore to alternate through tabs (this used to work before, incl. previous release). Cmd+T to open new tab also no longer works
