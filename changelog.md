@@ -1,6 +1,8 @@
+## 0.50.0-alpha.7
+- Bugfix: Option-key combinations on Mac are not properly handled in notes
+
 ## 0.50.0-alpha.6
 - Flexform now uses Table and ObjectGrid to show item lists
-- Bugfix: "Tom's option-key bug" on Mac resolved
 
 ## 0.50.0-alpha.5
 Application:
