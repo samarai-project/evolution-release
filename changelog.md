@@ -1,3 +1,17 @@
+## 0.50.0-alpha.8
+- Space manager header-toolbar restored for development users
+- One-to-one space-chats now show name "Chat with [User]"
+- View selector is now a dropdown
+- Commandbar actions restored in document navbar
+- Fixed bug that would reload objects 10 seconds after opening
+- H/b: Dump/Print functions introduced/changed
+- Misc and updates fixes in SDM and kanban boards
+- Developer extensions for todo-tasks and kanban cards
+- The message text is now part of new-message notification emails
+- Sdm tasks and requests can now be "expanded" as own columns on kanban boards
+- Sdm tasks and requests now show count of active sub-items as an badge
+- Shorts-mode introduced on kanban board
+
 ## 0.50.0-alpha.7
 - Bugfix: Option-key combinations on Mac are not properly handled in notes
 
