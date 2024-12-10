@@ -1,3 +1,27 @@
+## 0.50.0-beta.0
+- H/b bugfix: Unassigned function params behave like block-level variables
+- H/b bugfix: Expression `if (a) { b } else (c) { d }` would crash core at runtime
+- H/b bugfix: Decorations of parameters would be lost if param value is an object
+- Havel now implements short-circuit evaluation for all logical operators (except Not())
+- H/b now supports the Nullish Coalescing Operator "??"
+- H/b now supports the not-not operator "!!"
+- H/b now supports the Semantic Comparison Operators "is", "isnot", "instanceof" and "typeof"
+- H/b now supports continue-keyword in loops
+- H/b now supports ternary conditional operators "x ? y : z"
+- H/b replaced reference operator "&" by "byref"
+- H/b decorations operators "%" and "~" replaced by "**" and "*-"
+- H/b now supports bitwise operators "&", "|", "^" and "~"
+- H/b now supports the modulo operator "%"
+- H/b new object declaration syntax
+- Client datatype Numeric now reads UOM decoration properly
+- Tables: Improved algorithm to calculate Initial column widths
+- Tables: For tables that can be shuffled, we now show an indicator when custom sorting
+- Tables: All customizations are now saved
+- Tables: Rows can now be shuffled using Option-Up/Down keyboard shortcuts
+- Tables: Row-copy is now Excel and Google Sheets compatible
+- Tables: Rows now can have a custom background color
+- Tables: Misc fixes and updates
+
 ## 0.50.0-alpha.8
 - Space manager header-toolbar restored for development users
 - One-to-one space-chats now show name "Chat with [User]"
