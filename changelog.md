@@ -1,3 +1,16 @@
+## 0.50.0-beta.3
+- Fix: Shift+Cmd+T will open wrong last closed tab 
+- Fix: tab text sometimes doesn't match (see screenshot) — Google Maps, Docs, etc. 
+- Fix: we don't always immediately render the title of the web page correctly in the tab (e.g. Substack, - UltimateGuitarTabs) 
+- Cmd+R to refresh a only document, not the entire app 
+- Add common website searches into QAP (Google Maps, Youtube, Twitter, Google Translate, etc — like - Raycast) 
+- Show space favicon in front of space name, instead of green checkmark 
+- Pinned tabs like Firefox (small)
+- Allow opening popups in the browser.
+- Allow opening new tabs in the browser.
+- Allow selecting substrings in QAP editor.
+- Enable linking objects or websites and open the chat tool through the link
+
 ## 0.50.0-beta.0
 - H/b bugfix: Unassigned function params behave like block-level variables
 - H/b bugfix: Expression `if (a) { b } else (c) { d }` would crash core at runtime
