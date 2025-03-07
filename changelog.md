@@ -1,3 +1,14 @@
+## 0.51.0-alpha.0
+- H/b now supports preprocessor commands define, undef, ifdef, ifndef and endif
+- H/b now can handle exceptions like other values
+- H/b #relaxed introduced
+- H/b JSON integration improved
+- Flexform: Value viewer for Json added
+- Lots of smaller H/b improvements
+- AI chats now support markdown, html json, PDF and audio attachments
+- New HSL-based AI stack implemented
+- Samarai Pulse introduced
+
 ## 0.50.0-beta.3
 - Fix: Shift+Cmd+T will open wrong last closed tab 
 - Fix: tab text sometimes doesn't match (see screenshot) — Google Maps, Docs, etc. 
