@@ -1,3 +1,20 @@
+## 0.51.0-alpha.1
+- AI Chat: Model selection is now non-experimental
+- AI Chat: Model-specific bots are now non-experimental
+- AI: Anthropic provider now uses OpenAI API and is implemented on Alotau
+- AI: Anthropic Sonnet 3.7 model added
+- Allow dropping webpage favorites with Dnd into the tabs.
+- Fix: zooming in browser popups.
+- Fix: Allow to re-order all pinned tabs
+- Re-open closed tabs in the same index.
+- Protect pinned tabs by opening most of the links in a new tab, without replacing the content of the tab.
+- Fix: Allow multiple popups to overlap.
+- Fix: in the sidebar and dialogs, QAP is read-only now.
+- Fix: open links from the SidebarDoc in a new tab, without replacing the content.
+- Fix: cmd + click works more reliable now in the browser (not fully reliable still)
+- Fix: fix some links and popups in the browser that before where not showing. 
+
+
 ## 0.51.0-alpha.0
 - H/b now supports preprocessor commands define, undef, ifdef, ifndef and endif
 - H/b now can handle exceptions like other values
