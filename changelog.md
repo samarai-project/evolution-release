@@ -1,3 +1,8 @@
+
+## 0.51.0-alpha.2
+- Electron app does not anymore downgrade to stable releases if stable release only is selected in update settings
+- Pulse-based dispatcher introduced
+
 ## 0.51.0-alpha.1
 - AI Chat: Model selection is now non-experimental
 - AI Chat: Model-specific bots are now non-experimental
