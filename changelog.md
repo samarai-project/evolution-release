@@ -1,4 +1,7 @@
 
+## 0.51.0-alpha.3
+- Elate AI auto-completion implemented
+
 ## 0.51.0-alpha.2
 - Electron app does not anymore downgrade to stable releases if stable release only is selected in update settings
 - Pulse-based dispatcher introduced
