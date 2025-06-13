@@ -1,3 +1,7 @@
+## 0.51.0-alpha.4
+- add "comments" in Elate
+- add "Ask AI" menu in Elat
+- Bug fixed the app crashing when links with rich text are pasted in Elate.
 
 ## 0.51.0-alpha.3
 - Elate AI auto-completion implemented
