@@ -1,3 +1,14 @@
+## 0.51.0-alpha.5
+- HJI json values created from objects can now be extended by HSL
+- File handling functions added to H/b
+- H/b compiler: Post-build scripts added
+- H/b compiler: Resource-memories can now be mounted during build
+- Flexform now supports EmbRes values
+- New icon/pictogram dev-stack implemented
+- Bugfix: Notifications would show a button [>>]
+- Havel OAuth 2.0 implemented
+- First crude Google calendar synchronization implemented
+
 ## 0.51.0-alpha.4
 - add "comments" in Elate
 - add "Ask AI" menu in Elat
