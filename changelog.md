@@ -1,3 +1,6 @@
+## 0.51.0-alpha.6
+- icons and themes update
+   
 ## 0.51.0-alpha.5
 - HJI json values created from objects can now be extended by HSL
 - File handling functions added to H/b
