@@ -1,3 +1,19 @@
+## 0.51.0-alpha.7
+- OAuth on Mac fixed
+- Google calendar integration now runs on Mac (manual draft version)
+- Bugfix: User-search in chats is case sensitive
+- Flexform styles changed to fit the new design: dropdowns, spacing, alignments and color
+- Datepicker in Flexform replace with a new "Day picker" UI
+- New "FileViewer" UI in flexform relators
+- New styling for the tabs
+- Error popup style changed
+- Menus styling changed
+- Icons style improved by setting the stroke to "1px" without scaling
+- Notifications are now archived instead of being deleted, no UI for archive yet
+
+## 0.51.0-alpha.6
+- Icons update
+
 ## 0.51.0-alpha.5
 - HJI json values created from objects can now be extended by HSL
 - File handling functions added to H/b
