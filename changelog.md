@@ -1,3 +1,26 @@
+## 0.51.0-alpha.8
+- Bugfix: Error on uploading digitars to Alotau
+- Improved handling of non-local users, users missing digitar
+- Chats: Default browser context menu now allows to open chatbots from selected text
+- AI chat: Threads now can be branched-off
+- AI chat: Updated chatbot selector
+- AI chat: Threads now can have a title
+- AI chat: Pressing <Up> in an empty composer inserts last send message
+- AI chat: New messages now can be saved without sending to AI (⌘⌥⏎)
+- AI chat: Messages can now be easily deleted from hover menu
+- AI chat: AI-response can be triggered without new message
+- AI chat: Own messages in history before last AI-reply can now be edited
+- Chat messages now show browser-context-menu if text is selected
+- New chatbot "Inventor"
+- Flexform: New date picker
+- Style improvements in darkmode
+- Bugfix: Error after setting cover image to objects
+- QAP: Faster search
+- QAP: Styling improved
+- QAP: Keep search state on blur
+- QAP: Colored pictograms
+- Bugfix: App crash when pasting from VsCode into notes and the first line is empty
+
 ## 0.51.0-alpha.7
 - OAuth on Mac fixed
 - Google calendar integration now runs on Mac (manual draft version)
