@@ -1,3 +1,15 @@
+## 0.51.0-alpha.9
+- One-one-one space chats now show avatar of other user, spaces show a pictogram
+- Fixed bug with soft-breaks in notes that was introduced in 0.51.0-alpha.8
+- Bugfix: Notes block-styles won't show in production build
+- Bugfix: Typing /// in Elate crashes the app
+- Notes: New find (mark) feature
+- New development mode feature: Open New Window (not stable, unexpected behavior)
+- QAP notification processor added
+- QAP algorithm and UI updates
+- QAP UI to tweak algorithm (development mode only)
+- Another attempt at fixing "jumping" AI chats
+    
 ## 0.51.0-alpha.8
 - Bugfix: Error on uploading digitars to Alotau
 - Improved handling of non-local users, users missing digitar
