@@ -1,3 +1,40 @@
+## 0.51.0-alpha.11
+- Misc. QAP bugfixes and updates
+- Tables redesign in markdown replies from AI
+- Bugfix: Re-opening an object that's pinned would open in a new tab
+- Qap: search score for commands and objects.
+- Qap: ability for commands to accept queries
+- Qap: show keyboard shortcut hints
+- Qap: deduplicate browser history results
+- Qap: show url in browser history results
+- Qap: ability to abort core requests
+- Qap: plain text search history
+- Elate: added new 'query input'
+- Tabs: drag and drop extended to pinned items
+- Tabs: UI improved
+- Tabs: show notifications on tabs
+- Tabs: Pinned tabs now fixed on scroll
+- Browser: Favicon and title now is save correctly everytime
+- Browser: show Favicon in QAP path
+- Bugfix: fix outdated update on collaborative mode in notes
+- Bugfix: if multiple blocks were selected and cut, only 1st block would actually be cut
+- Show notifications icon in top navbar if left sidebar is closed
+- Show read and unread notifications in the sidebar
+- Open notifications directly from inbox (without having to click "open" out of menu)
+- New note commands: "Copy", "Paste", "Cut", "Ask AI", "Transform URL into Samarai Link"
+- New Home page with option to set a wallpaper
+- Redesign of notes editor bar
+- Redesign of "/" command menu
+- Flatten command menu to bring most commands out of sub-menus into main structure
+- Allow to "ask AI" from command menu about selected text
+- Improve placement of command menu (to not overlap over selected text)
+- Allow escaping out of command menu by typing spacebar, and via explicit command (after 5 keystrokes)
+- Change icons: object menu (filled ••• instead of line icon), JSON icon, AI icon in editor bar, etc
+- IMAP emails account implemented, first basic version
+
+## 0.51.0-alpha.10
+skipped
+
 ## 0.51.0-alpha.9
 - One-one-one space chats now show avatar of other user, spaces show a pictogram
 - Fixed bug with soft-breaks in notes that was introduced in 0.51.0-alpha.8
