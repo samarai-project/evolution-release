@@ -1,3 +1,5 @@
+## 0.51.0-alpha.12
+
 ## 0.51.0-alpha.11
 - Misc. QAP bugfixes and updates
 - Tables redesign in markdown replies from AI
